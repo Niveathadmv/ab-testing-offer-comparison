@@ -22,14 +22,14 @@ The data is made up. generate_data.py creates 28,000 visitors and randomly shows
 Each row has a visitor id, the offer they're part of and purchased (1 if they bought, 0 if not).
 
 ## What I Did
-Worked out how many visitors I need (sample_size.py). To spot a rise from 3.0% to 3.6%, I need about 13,900 visitors in each group.
-Created the data (generate_data.py).
-Compared the two groups with a z-test for proportions (ab_test.py). It gives a p-value and a likely range for the improvement.
-Made a bar chart (chart.py).
-Results
+* Created the data (generate_data.py).
+* I calculated the sample size using sample_size.py. I wanted to detect a 20% improvement in conversion rate, from 3% to 3.6%. With a 95% confidence level and 80% statistical power, I needed approximately 13,900 visitors in each group to run the A/B test.
+* Compared the two groups with a z-test for proportions (ab_test.py). It gives a p-value and a likely range for the improvement.
+* Made a bar chart (chart.py).
+
+# Results
 
 <img width="772" height="596" alt="image" src="https://github.com/user-attachments/assets/2d42523d-e855-4c82-be04-117bf47134db" />
-
 
 Offer A: 444 buyers out of 14,066 visitors (3.16%)
 Offer B: 508 buyers out of 13,934 visitors (3.65%)
@@ -38,7 +38,7 @@ B is ahead by about 0.5 percentage points. The p-value is 0.024, which is below 
 
 Offer B performs better, but we’re not sure exactly how much better. The improvement could be small or more noticeable.
 
-What a Business Would Do With This
+## What a Business Would Do With This
 
 Go with Offer B if the goal is more buyers. Before rolling it out, I'd also check profit, since Buy 2 Get 1 Free is a bigger discount than 20% off.
 
