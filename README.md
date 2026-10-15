@@ -49,4 +49,4 @@ Go with Offer B if the goal is more buyers. Before rolling it out, I'd also chec
 
 ## Where this works
 
-Any time you have two versions and a yes/no result: prices, shipping offers, email subject lines, landing pages, sign-up forms.
+Any time you have two versions and a yes/no result: prices, shipping offers, email subject lines, landing pages, sign-up forms etc.,
