@@ -43,9 +43,9 @@ What a Business Would Do With This
 Go with Offer B if the goal is more buyers. Before rolling it out, I'd also check profit, since Buy 2 Get 1 Free is a bigger discount than 20% off.
 
 ## Note:
-The data is made up, so the numbers only show how the method works.
-I only looked at how many visitors bought but not revenue or profit.
-It's one test. A real test should run for full weeks and be checked for things like seasonality.
+* The data is made up, so the numbers only show how the method works.
+* I only looked at how many visitors bought but not revenue or profit.
+* It's one test. A real test should run for full weeks and be checked for things like seasonality.
 
 ## Where this works
 
